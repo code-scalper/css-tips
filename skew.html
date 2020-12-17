@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .wrapper {
+        width: 100%;
+      }
+      section {
+        width: 100%;
+        height: 100vh;
+      }
+      .section1 {
+        /* transform: skew(0deg, -10deg); */
+        margin-top: -200px;
+        background: #3955bb;
+        background-size: cover;
+      }
+      .contents {
+        width: 100%;
+        height: 100%;
+        /* transform: skew(0deg, 10deg); */
+        display: grid;
+        place-items: center;
+        padding-top: 100px;
+        color: #fff;
+      }
+      .contents-2 {
+        height: 100vh;
+        display: grid;
+        text-align: center;
+        padding-top: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="section1">
+        <div class="contents">
+          <h1>It's Cool</h1>
+        </div>
+      </section>
+      <section class="section2">
+        <div class="contents-2">
+          <h1>It's not Cool</h1>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
