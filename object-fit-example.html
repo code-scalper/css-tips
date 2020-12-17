@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .wrapper {
+        display: grid;
+        width: 600px;
+        height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-columns: minmax(100px, 100px);
+        grid-auto-rows: minmax(100px, 200px);
+        grid-gap: 1rem;
+      }
+      img {
+        width: 100%;
+        display: block;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        <img src="https://placeimg.com/250/500/1" alt="" />
+      </div>
+      <div>
+        <img src="https://placeimg.com/150/450/2" alt="" />
+      </div>
+      <div>
+        <img src="https://placeimg.com/150/420/3" alt="" />
+      </div>
+      <div>
+        <img src="https://placeimg.com/650/270/4" alt="" />
+      </div>
+      <div>
+        <img src="https://placeimg.com/470/300/5" alt="" />
+      </div>
+      <div>
+        <img src="https://placeimg.com/400/220/6" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
